@@ -1,0 +1,208 @@
+html, body {
+    margin: 0;
+}
+.header {
+    font-family: amatic sc; 
+    font-size: 90px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    margin: 0;
+    text-align: center;
+    color: #d0b909;
+    background-color:#2F4858;
+}
+a h4 {
+    font-family: amatic sc;
+    font-size: 140px;
+    color:rgb(255, 116, 51);
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+a h4:hover {
+    color: #2F4858;
+}
+.photo {
+    height: 400px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 60px 30px;
+}
+.main article { 
+    color:rgb(48, 47, 47);
+    text-align: center;
+    font-family: amatic sc;
+    font-size: 14px;
+    padding: 20px 20px;  
+}  
+.img {
+    width: 700px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    margin-top: 50px;
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    background-color: rgb(48, 47, 47);
+    grid-area: footer;
+    color: rgb(161, 161, 158);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 1px;
+}
+
+
+/*parks pagina */
+
+h4 {
+    font-family: amatic sc;
+    font-size: 40px;
+    color:rgb(255, 116, 51);
+    text-align: left;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+h5 {
+    font-family: amatic sc;
+    color: #2F4858;
+    text-align: center;
+}
+main a {
+    text-decoration: none;
+}
+hr {
+    border: 1px solid rgb(255, 116, 51);  
+}
+nav {
+    display: flex;
+    justify-content: left;
+    margin: 0px 20px;
+}
+nav a {
+    margin: 0px 10px;
+    padding: 20px 30px ;
+    font-family: amatic sc;
+    font-size: 70px;
+    background: #2F4858;
+    color: #d0b909;
+    border-radius: 50%;
+}
+nav a:hover {
+    background: #d0b909;
+    color: #2F4858;
+}
+form {
+    padding: 20px;
+}
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #2F4858;
+}
+input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* TUTORIALS */
+
+h2 {
+    color: rgb(255, 116, 51);
+    text-align: center;
+    font-family: amatic sc;
+    text-decoration: none;
+    font-size: 140px;
+    margin-top: 90px;
+    margin-bottom: 100;;
+}
+.vid2 {
+    font-family: amatic sc;
+    font-size: 70px;
+    color: #2F4858;
+    margin-bottom: 0;
+    
+}
+.iframe-container {
+    
+    margin: 0px 20px 30px;
+    padding-bottom: 100px;      
+}
+iframe {
+    border-radius: 4px;
+}
+
+
+/* GEAR */
+
+.box {
+    height: 1000px;
+}
+
+
+@media (min-width: 400px) {
+
+.header {
+    font-size: 100px;
+    text-align: center;
+}
+a h4 {
+    font-size: 50px;
+}
+.photo {
+    display: flex;
+}
+.img {
+    width: 300px;
+}
+article {
+    font-size: 14px;
+    text-align: center;
+}
+h2 {
+    font-size: 100px;
+}
+h5 {
+    font-size: 20px;
+}
+nav a {
+    font-size: 40px;
+}
+label {
+    font-size: 20px;
+}
+.vid2 {
+    font-size: 50px;
+}
+main {
+    flex-direction: column;
+    width: 0px 40px 20px;
+}
+main > div {
+    flex: 1;
+}
+}
+@media (min-width: 1024px){
+    
+main {
+    flex-direction: row;
+}
+.header {
+    font-size: 50px;
+    text-align: left;
+}
+}
+

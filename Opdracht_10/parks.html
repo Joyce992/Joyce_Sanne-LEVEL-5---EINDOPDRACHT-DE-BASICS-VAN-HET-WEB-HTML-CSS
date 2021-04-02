@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+        <title>Cable Wakeboarding Europe</title>
+    </head>
+    <body class="container">
+        <header class="header">
+            Cable Wakeboarding Europe               
+        </header> 
+        <img class="photo" width="100%" src="park.jpg" alt="cable wakeboarding riding an obstacle " />
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gear.html">Gear</a>
+            <a href="tutorials.html">Tutorials</a>
+        </nav>
+        <h2>Find The Park For Your Next Visit</h2>
+    <section>
+        <h5>Dit slaat nergens op, maar is puur voor de opdracht</h5>
+        
+        <form name="contact" method="POST" data-netlify="true">       <!-- <form action="results.html" method="GET" enctype="multipart/form-data"> -->
+            <h4>A stickerpack would be awesome, thank you!</h4>
+            <div>
+              <label for="name">Name*</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div>
+                <label for="address">Street*</label>
+                <input type="text" name="address" id="address" required />
+              </div>
+              <div>
+                <label for="housenr">Housenumber*</label>
+                <input type="number" name="number" id="number" min="1" max="200" step="5" required/>
+              </div>
+              <div>
+                <label for="zip">Zip*</label>
+                <input id="zip" name="zip" type="text" pattern="[0-9]*" required>
+              </div>
+              <div>
+                <label for="city">City*</label>
+                <input type="text" name="city" id="city" required />
+              </div>
+              <div>
+                <label for="add">Country*</label>
+                <input type="text" name="country" id="country" required />
+              </div>
+            <div>
+              <label for="email">Email*</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input type="tel" name="phone" id="phone" required/>
+            </div>
+            <div>
+              <label for="age">Age</label>
+              <input type="number" name="age" id="age" min="1" max="200" step="5" />
+            </div>
+            <div>
+              <label for="date">Birthdate</label>
+              <input type="date" name="date" id="date" min="2019-06-10" />
+            </div>
+            <hr />
+
+        <div>
+          <h4>Campsite:</h4>
+          <div>
+            <label for="male">Hell Yeah!</label>
+            <input type="radio" name="gender" id="male" value="male" />
+          </div>
+          <div>
+            <label for="female">No Thanks!</label>
+            <input type="radio" name="gender" id="female" value="female" />
+          </div>
+        </div>
+        <hr />
+        <div>
+          <h4>Favorite Country:</h4>
+          <div>
+            <label for="italian">Spain</label>
+            <input type="checkbox" name="spain" id="spain" />
+          </div>
+          <div>
+            <label for="french">France</label>
+            <input type="checkbox" name="france" id="france" />
+          </div>
+          <div>
+            <label for="spanish">Germany</label>
+            <input type="checkbox" name="germany" id="germany" />
+          </div>
+          <div>
+            <label for="arabic">Netherlands</label>
+            <input type="checkbox" name="netherlands" id="netherlands" />
+          </div>
+          <div>
+            <label for="bio">Other</label>
+            <textarea id="other" name="other"></textarea>
+          </div>
+        </div>
+        <hr />
+
+        <div>
+          <label for="color">Favorite color for your board:</label>
+          <input type="color" name="color" id="color" />
+        </div>
+        <hr />
+
+        <input type="hidden" name="hidden" value="hi" />
+        <div>
+          <h4>Share your awesome wakeboarding pictures with us:</h4>  
+          <label for="file"></label>
+          <input id="file" type="file" name="file" />
+        </div>
+        <br>
+        <div>
+          <h4>Did we miss a Park? Share the link and we'll add it:</h4>
+          <label for="url"></label>
+          <input type="url" name="url" id="url" />
+        </div>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        
+      </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy;2021 - CTC creations</p>
+    </footer> 
+    </body>
+</html>
